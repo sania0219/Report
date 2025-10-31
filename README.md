@@ -102,6 +102,7 @@ Testing involved manually running the game under different conditions.
 •	Boundary testing: Ensuring collision detection works properly.
 •	Speed testing: Adjusting the delay variable for smoother gameplay.
 •	User control testing: Checking if all arrow key inputs are responsive.
+
 Results and Output
 The final program generates an interactive Snake Game with the following outcomes:
 Smooth snake motion using real-time updates.
