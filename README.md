@@ -69,44 +69,52 @@ Analyzing performance, game accuracy, and user experience.
 
 
 System Requirements:
+
 Hardware: 
-•	Processor: Intel i3 or higher
-•	RAM: Minimum 2 GBDisplay: 1024x768 resolution or above
+ •	Processor: Intel i3 or higher
+ •	RAM: Minimum 2 GBDisplay: 1024x768 resolution or above
+
 Software: 
-•	Python 3.10 or above
-•	IDE: VS Code / PyCharm / IDLE
-•	Libraries: turtle, time, random 
+ •	Python 3.10 or above
+ •	IDE: VS Code / PyCharm / IDLE
+ •	Libraries: turtle, time, random 
+
 Technologies Used
-•	Programming Language: Python
-•	Concepts: Object-Oriented Programming, Loops, Conditional Statements, Event Handling
-•	Libraries: turtle, time, random
+ •	Programming Language: Python
+ •	Concepts: Object-Oriented Programming, Loops, Conditional Statements, Event Handling
+ •	Libraries: turtle, time, random
+
 Literature Review
-The Snake Game has been implemented across various programming languages for beginner projects. It introduces essential real-time computation concepts. This version focuses on simplicity using Python’s turtle module instead of external engines like Pygame , ensuring low complexity and high educational value. 
+The Snake Game has been implemented across various programming languages for beginner projects. It introduces essential real-time computation concepts. This version focuses on simplicity using Python’s turtle module instead of external engines like Pygame , ensuring low complexity and high educational value.
+
 System Design
 The system consists of three main components:
-Snake Head: Represents the player’s control that moves across the screen.
-Food: Randomly positioned object for snake consumption.
-Body Segments: Added dynamically as the snake grows.
+ Snake Head: Represents the player’s control that moves across the screen.
+ Food: Randomly positioned object for snake consumption.
+ Body Segments: Added dynamically as the snake grows.
+
 A score counter keeps track of successful food consumptions, while collision functions detect game termination conditions.
+
 Implementation
 The code defines classes to handle snake behavior, food placement, scoring, and game state management using a loop structure. The movement is controlled via keyboard bindings (e.g., arrow keys). Each iteration of the loop updates positions, checks for events, and redraws components.
 Code Explanation
 Each section of the code handles a specific logic:
-•	Initialization: Create screen and set background.
-•	Movement: Functions define snake motion in four directions.
-•	Food Logic: Random placement of food objects using the random module.
-•	Collision: Detects wall or self-body touch to end the game.
-•	Scoring: Increments points and displays updated values.
+ •	Initialization: Create screen and set background.
+ •	Movement: Functions define snake motion in four directions.
+ •	Food Logic: Random placement of food objects using the random module.
+ •	Collision: Detects wall or self-body touch to end the game.
+ •	Scoring: Increments points and displays updated values.
+
 Testing and Debugging
 Testing involved manually running the game under different conditions.
-•	Boundary testing: Ensuring collision detection works properly.
-•	Speed testing: Adjusting the delay variable for smoother gameplay.
-•	User control testing: Checking if all arrow key inputs are responsive.
+ •	Boundary testing: Ensuring collision detection works properly.
+ •	Speed testing: Adjusting the delay variable for smoother gameplay.
+ •	User control testing: Checking if all arrow key inputs are responsive.
 
 Results and Output
 The final program generates an interactive Snake Game with the following outcomes:
-Smooth snake motion using real-time updates.
-Accurate scoring and growth logic.
-Detectable collision events leading to game termination.
+  Smooth snake motion using real-time updates.
+  Accurate scoring and growth logic.
+  Detectable collision events leading to game termination.
 
 
